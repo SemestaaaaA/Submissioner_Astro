@@ -11,8 +11,8 @@ body{
 }
 /* navbar */
 nav {
-  background-color: #08142880;
-  backdrop-filter: blur(40px);
+  background-color: #0814282c;
+  backdrop-filter: blur(8px);
   position: fixed;
   top: 0%;
   left: 0%;
@@ -32,6 +32,13 @@ nav {
   margin: 0px;
   height: 55px;
   padding: 0px 0px 0px 80px;
+  transition: 0.1;
+  opacity: 1;
+}
+
+.icon1:hover {
+transform: scale(1.03);
+filter: brightness(1.3);
 }
 .nav2 {
   position: fixed;
@@ -52,12 +59,13 @@ nav {
   transition: 0.3s;
   
 }
-.nav2 li a:visited {
-  color: inherit;
+.nav2 li a,:visited {
+color: #c89b3c;
 }
 .nav2 li:hover {
   color: #c89c3c;
   text-shadow: 0px 0px 5px  rgb(151, 122, 24);
+  filter: brightness(1.3);
 }
 /* landing page */
   body {
@@ -148,20 +156,40 @@ hr{
   width: 70%;
 }
 /* Top meta */
+.hexx{
+  background-size: cover;
+  position: center;
+  z-index: 1;
+  justify-content: center;
+
+}
 .div3 {
   align-items: center;
   position: relative;
   display: contents;
+  z-index: 1;
 }
 .c3 h1{
 position: top;
 text-align: center;
 font-family: 'Beaufort';
-z-index: 2;
+z-index: 5;
 margin-top: 0;
-
-/* border: 1px solid white; */
 }
+.c3 h2{
+  font-size: clamp(32px, 4vw, 64px);
+  font-family: 'Beaufort';
+  font-weight: bold;
+  z-index: 5;
+  text-align: center;
+  
+}
+.c3 ul{
+  font-size: clamp(8px, 4vw, 18px);
+  text-align: justify;
+}
+
+
 section {
     height: 100vh;
     padding: 0 clamp(4rem, 12vw, 80px);
@@ -196,7 +224,7 @@ section {
     }
 
     &:nth-of-type(4) {
-        background: rgb(29, 29, 29);
+        background: #081428;
         color: white;
     }
 }
