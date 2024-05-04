@@ -1,0 +1,119 @@
+* {
+  font-family: Helvetica;
+  text-decoration: none;
+}
+/* .bg {
+  background-image: url(/Img/WIP\ 6.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh; */
+
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    height: 100vh;
+    padding: 0 clamp(4rem, 12vw, 20rem);
+    display: grid;
+    place-content: center;
+
+    p {
+        font-size: clamp(2rem, 5vw, 8rem);
+    }
+
+    &:nth-of-type(1) {
+        border-bottom: 1px solid black;
+    }
+
+    &:nth-of-type(3) {
+        background: #ffff00;
+    }
+
+    &:nth-of-type(4) {
+        background: rgb(29, 29, 29);
+        color: white;
+    }
+}
+.c1{
+  background-image: url(/Img/WIP\ 6.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.c2{
+  background-image: url(/img/c2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+#c3{
+  background-image: url(/img/c3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+#c4{
+  background-image: url(/img/c4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#c5{
+  background-image: url(/img/footer.png);
+  background-position: center;
+  background-size: cover;
+}
+nav {
+  background-color: #08142858;
+  backdrop-filter: blur(50px);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 50px;
+  border-bottom: 0.7px solid #c89b3c;
+  margin: 0%;
+  z-index: 100;
+  box-sizing: border-box;
+  box-shadow: 0px 7px 29px 1px;
+}
+.icon1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 4px;
+  height: 36px;
+  padding: 2px 6px;
+}
+.icon1:hover {
+  color: #c89b3c;
+  text-shadow: 0px 0px 8px whitesmoke, 0px 0px 12px whitesmoke,
+    0px 0px 16px whitesmoke;
+}
+
+.nav2 {
+  position: fixed;
+  height: 20px;
+  top: 0px;
+  left: 100px;
+  text-decoration: none;
+}
+.nav2 li {
+  color: #c89b3c;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-flex;
+  margin-left: 18px;
+  list-style: none;
+  text-align: center;
+}
+
+.nav2 li a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+nav li a:hover {
+  text-shadow: 0px 0px 8px rgb(185, 145, 57), 0px 0px 4px whitesmoke;
+}
