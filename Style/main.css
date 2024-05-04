@@ -6,12 +6,12 @@
 .header {
   position: sticky;
   top: 0;
-  background-color: tomato;
+  background: linear-gradient(#005A82, #0AC8B9);
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 16px 32px 16px 32px;
+  padding: 16px 32px;
 }
 
 .list {
@@ -65,7 +65,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 16px;
-  padding: 32px;
+  padding: 80px;
 }
 
 .hero-section .cta h1 {
@@ -78,7 +78,7 @@
 
 .hero-section .cta button {
   width: 25%;
-  background-color: tomato;
+  background: linear-gradient(#005A82, #0AC8B9);
   border: none;
   color: white;
   border-radius: 24px;
@@ -155,7 +155,7 @@
   border-radius: 8px;
   padding: 8px;
   border: 0;
-  background-color: tomato;
+  background: linear-gradient(#005A82, #0AC8B9);
   color: white;
   font-weight: bold;
 }
@@ -165,9 +165,40 @@
   gap: 16px;
 }
 
+.about-section{
+  padding: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.about-section > div{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.about-section .about-title{
+  text-align: center;
+  font-size: 36px;
+  margin-top: 64px;
+}
+
+.about-section .img-container{
+  overflow: hidden;
+  border-radius: 36px;
+}
+
+.about-section .about-image{
+  object-fit: cover;
+  object-position: center;
+  width: 200%;
+  height: 200%;
+}
+
 /* Footer */
 .footer {
-  background-color: tomato;
+  background: linear-gradient(#005A82, #0AC8B9);
   color: white;
 }
 
@@ -179,6 +210,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-logo{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-logo > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img{
+  width: 50px;
 }
 
 .sosial-media{
@@ -197,7 +244,7 @@
 }
 
 .bottom-footer {
-  background-color: red;
+  background: linear-gradient(#785A28, #C89B3C);
 }
 
 .bottom-footer h6 {

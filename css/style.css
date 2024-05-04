@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family:'BeauFort';
-  src: url(/font/BeaufortforLOL-Bold.ttf) format('truetype') ,
+  src: url(/font/BeaufortforLOL-Bold.ttf) format('truetype') ;
 }
 body{
   background-color: #081428;
